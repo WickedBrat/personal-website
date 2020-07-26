@@ -1,0 +1,64 @@
+# DO NOT REMOVE THIS
+theme = "hugo-theme-codex" 
+
+# Override these settings with your own
+title = "WickedBrat"
+languageCode = "en-us"
+baseURL = "https://wickedbrat.com/"
+copyright = "© {year}"
+
+# Add your Disqus shortname here.
+# disqusShortname = ""
+
+# Add your Google Analytics identifier: UA-XXXXXXXX-X
+# googleAnalytics = "UA-130399233-1" 
+
+# Optional params
+[params]
+  # Follow the Hugo date/time format reference here: 
+  # https://gohugo.io/functions/format/#gos-layout-string
+  dateFormat = "Jan 2 2006"
+
+  # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
+  twitter = "https://twitter.com/siddhantsme"
+  github = "https://github.com/WickedBrat"
+  email = "mailto:harshsrivastav123@gmail.com"
+  facebook = "https://www.facebook.com/siddhant.srivastav.3/"
+  gitlab = "https://gitlab.com/WickedBrat"
+  instagram = "https://instagram.com/siddhantisme"
+  linkedin = "https://www.linkedin.com/in/wickedbrat"
+  # youtube = "https://www.youtube.com/channel/<your channel>"
+  
+  # Titles for your icons (shown as tooltips), and also their display order.
+  # Currently, these icons are supported: 
+  #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
+  iconTitles = ["Twitter", "GitHub"]
+
+  # Metadata for Twitter cards, defaults to params.twitter
+  # twitterSite = "@<your handle>"
+  # twitterAuthor = "@<your handle>"
+
+# This disables Hugo's default syntax highlighting in favor
+# of prismjs. If you wish to use Hugo's default syntax highlighting
+# over prismjs, remove this. You will also need to remove the prismjs
+# vendor script in layouts/blog/single.html.
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+# Controls the navigation
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog"

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcodes on WickedBrat</title>
+    <link>https://wickedbrat.com/tags/shortcodes/</link>
+    <description>Recent content in shortcodes on WickedBrat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wickedbrat.com/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://wickedbrat.com/blog/rich-text/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/blog/rich-text/</guid>
+      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
+Instagram Simple Shortcode .__h_instagram.card { font-family: -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif; font-size: 14px; border: 1px solid rgb(219, 219, 219); padding: 0; margin-top: 30px; } .__h_instagram.card .card-header, .__h_instagram.card .card-body { padding: 10px 10px 10px; } .__h_instagram.card img { width: 100%; height: auto; }  koloot.</description>
+    </item>
+    
+  </channel>
+</rss>
