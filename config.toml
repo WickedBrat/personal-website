@@ -62,3 +62,9 @@ copyright = "© {year}"
   name = "blog"
   title = "Blog"
   url = "/blog"
+
+[[menu.main]]
+  identifier = "snaps"
+  name = "snaps"
+  title = "Snaps"
+  url = "/snaps"
