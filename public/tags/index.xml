@@ -7,71 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 09:19:29 -0400</lastBuildDate>
     
 	<atom:link href="https://wickedbrat.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>css</title>
-      <link>https://wickedbrat.com/tags/css/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <title>intro</title>
+      <link>https://wickedbrat.com/tags/intro/</link>
+      <pubDate>Mon, 27 Jul 2020 09:19:29 -0400</pubDate>
       
-      <guid>https://wickedbrat.com/tags/css/</guid>
+      <guid>https://wickedbrat.com/tags/intro/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://wickedbrat.com/tags/html/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <title>welcome</title>
+      <link>https://wickedbrat.com/tags/welcome/</link>
+      <pubDate>Mon, 27 Jul 2020 09:19:29 -0400</pubDate>
       
-      <guid>https://wickedbrat.com/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://wickedbrat.com/tags/markdown/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://wickedbrat.com/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://wickedbrat.com/tags/math/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://wickedbrat.com/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://wickedbrat.com/tags/shortcodes/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://wickedbrat.com/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://wickedbrat.com/tags/themes/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://wickedbrat.com/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://wickedbrat.com/tags/hugo/</link>
-      <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
-      
-      <guid>https://wickedbrat.com/tags/hugo/</guid>
+      <guid>https://wickedbrat.com/tags/welcome/</guid>
       <description></description>
     </item>
     
