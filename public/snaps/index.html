@@ -185,13 +185,13 @@ if (!doNotTrack) {
 
 var allImages = "";
 
-for (var i = 0; i < 6; i++) {
+for (var i = 1; i < 6; i++) {
   var width = getRandomSize(200, 400);
   var height =  getRandomSize(200, 400);
   allImages += '<img src="./1'+ i + '.jpg" alt="pretty kitty">';
 }
 
-document.getElementById("photos").append(allImages);
+document.getElementById("photos").innerHTML = allImages;
 </script>
   </main>
   <script src="/js/index.min.49e4d8a384357d9b445b87371863419937ede9fa77737522ffb633073aebfa44.js" integrity="sha256-SeTYo4Q1fZtEW4c3GGNBmTft6fp3c3Ui/7YzBzrr&#43;kQ=" crossorigin="anonymous"></script>
