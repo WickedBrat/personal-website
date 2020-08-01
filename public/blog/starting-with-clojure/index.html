@@ -2,12 +2,12 @@
 <html lang="en-us">
 
 <head>
-  <title>It all starts here | WickedBrat</title>
+  <title>Getting started with Clojure | WickedBrat</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
-  <meta name="description" content="This is an example post for hugo-theme-codex.">
-  <meta name="keywords" content="gohugo , hugo , go , blog">
+  <meta name="description" content="Clojure and functional programming">
+  <meta name="keywords" content="clojure , functional , programming , blog , gojek">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,8 +15,8 @@
   
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="It all starts here" />
-  <meta name="twitter:description" content="This is an example post for hugo-theme-codex."/>
+  <meta name="twitter:title" content="Getting started with Clojure" />
+  <meta name="twitter:description" content="Clojure and functional programming"/>
   <meta name="twitter:site" content="https://twitter.com/siddhantsme" />
   <meta name="twitter:creator" content="https://twitter.com/siddhantsme" />
   
@@ -54,9 +54,9 @@
             "@id": "https:\/\/wickedbrat.com\/"
       },
       "articleSection" : "blog",
-      "name" : "It all starts here",
-      "headline" : "It all starts here",
-      "description" : "This is an example post for hugo-theme-codex.",
+      "name" : "Getting started with Clojure",
+      "headline" : "Getting started with Clojure",
+      "description" : "Clojure and functional programming",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -64,11 +64,11 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2020",
-      "datePublished": "2020-07-27 09:19:29 -0400 -0400",
-      "dateModified" : "2020-07-27 09:19:29 -0400 -0400",
-      "url" : "https:\/\/wickedbrat.com\/blog\/welcome\/",
-      "wordCount" : "76",
-      "keywords" : ["gohugo", "hugo", "go", "blog", "Blog"]
+      "datePublished": "2020-08-01 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-08-01 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/wickedbrat.com\/blog\/starting-with-clojure\/",
+      "wordCount" : "409",
+      "keywords" : ["clojure", "functional", "programming", "blog", "gojek", "Blog"]
     }
   
   </script>
@@ -124,14 +124,28 @@ if (!doNotTrack) {
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title">It all starts here</h1>
-            <time datetime="2020-07-27 09:19:29 -0400 -0400" class="post__date"
-            >Jul 27 2020</time>
+            <h1 id="post__title">Getting started with Clojure</h1>
+            <time datetime="2020-08-01 00:00:00 &#43;0000 UTC" class="post__date"
+            >Aug 1 2020</time>
           </header>
           <article class="post__content">
               
-<a class="anchor" href="#it-all-starts-here"><h2 id="it-all-starts-here">It all starts here</a></h2>
-<p>Hi fellow reader. Something tells me, you like reading for just plain-old checking out people&rsquo;s profile? 😉 So before this blog, I&rsquo;ve been writing at <a href="https://medium.com">Medium.com</a>. You can checkout whatever I&rsquo;ve written here: <a href="https://medium.com/@harshsrivastav123">Siddhant&rsquo; Profile</a>. If there&rsquo;s something you&rsquo;d like to talk about, or would want to know my views on, click on any of the platforms below and ping me! Don&rsquo;t forget to mention that you&rsquo;re traveller from this website 😄</p>
+<p>If you&rsquo;re here, it means that probably you&rsquo;ve come across functional programming or Clojure. If not, perhaps I need to check my SEO. Anyway, let&rsquo;s make the most out of it. Throughout the blog, I&rsquo;ll try to simplify and present my understanding of the <strong>Functional Programming</strong> and <strong>Clojure</strong>.
+When you&rsquo;re getting started with Clojure, the book <a href="https://www.braveclojure.com/getting-started/">Brave Clojure</a> is going to be your life saver. <a href="http://www.joyofclojure.com/">Joy of Clojure</a> is another book you&rsquo;d find handy. For practicals and hands-on, I&rsquo;d recommend <a href="http://www.4clojure.com/">4clojure.com</a>. Let&rsquo;s dive in!</p>
+<a class="anchor" href="#hows-clojure-different"><h2 id="hows-clojure-different">How&rsquo;s Clojure different</a></h2>
+<p>Clojure has a lot of resemblance with Lisp. In other words, you can say Clojure is Lisp with support for JVM. Supporting JVM turns out to be a big deal for a number of reasons:</p>
+<ul>
+<li>JVM has been around for a long time and is fast, really fast.</li>
+<li>It has the support of numerous libraries, built-in.</li>
+<li>JVM is used by a lot of companies for their microservices.</li>
+</ul>
+<p>Clojure has an opinionated approach to functional programming. It has support for high-order functions. This means that it can take functions as arguments and a function can also return values from other functions. One of the coolest things is that the data in Clojure are immutable by default. This means that everything, when defined has fixed value and can&rsquo;t be changed. Having immutable data values is several benefits like all the data-structures are thread-safe and one thread can&rsquo;t change the values of others. You also don&rsquo;t need to worry any other code changing your variable values.</p>
+<a class="anchor" href="#java-vs-clojure"><h2 id="java-vs-clojure">Java vs Clojure</a></h2>
+<p>To understand the difference between usage of Clojure and Java because one might argue that Java also runs on JVM. To successfully do that, we need to understand the working of Clojure behind the scenes.</p>
+<p>Clojure is a hosted language. Unlike most other programming languages Clojure programs are executed within JVM itself. Typically, Java source codes are compiled to produce JAR files which are then run by the JVM. But for Clojure, there is a Clojure library running inside JVM that runs the Clojure source code.</p>
+<a class="anchor" href="#repl"><h2 id="repl">REPL</a></h2>
+<p>REPL (Read-Eval-Print-Loop) is an advanced environment that is shipped with most Lisp languages. In day-to-day development, REPL could prove to be one of the most useful tools. While developing code in Java, one issue you must have come across is the long cycle taken to test a simple change of code. With REPL, you can eliminate this process by simply running your Clojure code in REPL.</p>
+<a class="anchor" href="#some-good-practices"><h2 id="some-good-practices">Some good practices</a></h2>
 
 
               
@@ -141,20 +155,23 @@ if (!doNotTrack) {
 <ul class="tags__list">
     
     <li class="tag__item">
-        <a class="tag__link" href="https://wickedbrat.com/tags/welcome/">welcome</a>
+        <a class="tag__link" href="https://wickedbrat.com/tags/clojure/">clojure</a>
     </li>
     <li class="tag__item">
-        <a class="tag__link" href="https://wickedbrat.com/tags/intro/">intro</a>
+        <a class="tag__link" href="https://wickedbrat.com/tags/functional/">functional</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://wickedbrat.com/tags/programming/">programming</a>
     </li></ul>
 
  <div class="pagination">
   
-
-  
-    <a class="pagination__item" href="https://wickedbrat.com/blog/starting-with-clojure/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >Getting started with Clojure</a>
+    <a class="pagination__item" href="https://wickedbrat.com/blog/welcome/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">It all starts here</span>
     </a>
+  
+
   
 </div>
 
@@ -230,7 +247,10 @@ if (!doNotTrack) {
           
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#it-all-starts-here">It all starts here</a></li>
+    <li><a href="#hows-clojure-different">How&rsquo;s Clojure different</a></li>
+    <li><a href="#java-vs-clojure">Java vs Clojure</a></li>
+    <li><a href="#repl">REPL</a></li>
+    <li><a href="#some-good-practices">Some good practices</a></li>
   </ul>
 </nav>
       </div>

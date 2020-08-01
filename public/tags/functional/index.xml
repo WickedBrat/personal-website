@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on WickedBrat</title>
-    <link>https://wickedbrat.com/blog/</link>
-    <description>Recent content in Blogs on WickedBrat</description>
+    <title>functional on WickedBrat</title>
+    <link>https://wickedbrat.com/tags/functional/</link>
+    <description>Recent content in functional on WickedBrat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
     <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wickedbrat.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wickedbrat.com/tags/functional/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://wickedbrat.com/blog/starting-with-clojure/</guid>
       <description>If you&amp;rsquo;re here, it means that probably you&amp;rsquo;ve come across functional programming or Clojure. If not, perhaps I need to check my SEO. Anyway, let&amp;rsquo;s make the most out of it. Throughout the blog, I&amp;rsquo;ll try to simplify and present my understanding of the Functional Programming and Clojure. When you&amp;rsquo;re getting started with Clojure, the book Brave Clojure is going to be your life saver. Joy of Clojure is another book you&amp;rsquo;d find handy.</description>
-    </item>
-    
-    <item>
-      <title>It all starts here</title>
-      <link>https://wickedbrat.com/blog/welcome/</link>
-      <pubDate>Mon, 27 Jul 2020 09:19:29 -0400</pubDate>
-      
-      <guid>https://wickedbrat.com/blog/welcome/</guid>
-      <description>It all starts here Hi fellow reader. Something tells me, you like reading for just plain-old checking out people&amp;rsquo;s profile? 😉 So before this blog, I&amp;rsquo;ve been writing at Medium.com. You can checkout whatever I&amp;rsquo;ve written here: Siddhant&amp;rsquo; Profile. If there&amp;rsquo;s something you&amp;rsquo;d like to talk about, or would want to know my views on, click on any of the platforms below and ping me! Don&amp;rsquo;t forget to mention that you&amp;rsquo;re traveller from this website 😄</description>
     </item>
     
   </channel>

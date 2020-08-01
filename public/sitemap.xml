@@ -4,12 +4,37 @@
   
   <url>
     <loc>https://wickedbrat.com/</loc>
-    <lastmod>2020-07-27T09:19:29-04:00</lastmod>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://wickedbrat.com/blog/</loc>
-    <lastmod>2020-07-27T09:19:29-04:00</lastmod>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/clojure/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/functional/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/blog/starting-with-clojure/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/programming/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,25 +48,12 @@
   </url>
   
   <url>
-    <loc>https://wickedbrat.com/tags/</loc>
-    <lastmod>2020-07-27T09:19:29-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wickedbrat.com/tags/welcome/</loc>
     <lastmod>2020-07-27T09:19:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wickedbrat.com/snaps/snaps/</loc>
-  </url>
-  
-  <url>
     <loc>https://wickedbrat.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wickedbrat.com/snaps/</loc>
   </url>
   
 </urlset>

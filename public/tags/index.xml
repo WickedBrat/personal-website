@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 27 Jul 2020 09:19:29 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wickedbrat.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>clojure</title>
+      <link>https://wickedbrat.com/tags/clojure/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functional</title>
+      <link>https://wickedbrat.com/tags/functional/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/tags/functional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://wickedbrat.com/tags/programming/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/tags/programming/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>intro</title>

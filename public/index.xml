@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 27 Jul 2020 09:19:29 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wickedbrat.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting started with Clojure</title>
+      <link>https://wickedbrat.com/blog/starting-with-clojure/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/blog/starting-with-clojure/</guid>
+      <description>If you&amp;rsquo;re here, it means that probably you&amp;rsquo;ve come across functional programming or Clojure. If not, perhaps I need to check my SEO. Anyway, let&amp;rsquo;s make the most out of it. Throughout the blog, I&amp;rsquo;ll try to simplify and present my understanding of the Functional Programming and Clojure. When you&amp;rsquo;re getting started with Clojure, the book Brave Clojure is going to be your life saver. Joy of Clojure is another book you&amp;rsquo;d find handy.</description>
+    </item>
     
     <item>
       <title>It all starts here</title>
@@ -19,15 +28,6 @@
       
       <guid>https://wickedbrat.com/blog/welcome/</guid>
       <description>It all starts here Hi fellow reader. Something tells me, you like reading for just plain-old checking out people&amp;rsquo;s profile? 😉 So before this blog, I&amp;rsquo;ve been writing at Medium.com. You can checkout whatever I&amp;rsquo;ve written here: Siddhant&amp;rsquo; Profile. If there&amp;rsquo;s something you&amp;rsquo;d like to talk about, or would want to know my views on, click on any of the platforms below and ping me! Don&amp;rsquo;t forget to mention that you&amp;rsquo;re traveller from this website 😄</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://wickedbrat.com/snaps/snaps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://wickedbrat.com/snaps/snaps/</guid>
-      <description></description>
     </item>
     
   </channel>

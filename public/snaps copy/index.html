@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <title>Blogs | WickedBrat</title>
+  <title>Snaps | WickedBrat</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
@@ -15,7 +15,7 @@
   
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Blogs" />
+  <meta name="twitter:title" content="Snaps" />
   <meta name="twitter:description" content=""/>
   <meta name="twitter:site" content="https://twitter.com/siddhantsme" />
   <meta name="twitter:creator" content="https://twitter.com/siddhantsme" />
@@ -41,9 +41,58 @@
   
   
    
-  <link rel="alternate" type="application/rss+xml+xml" href="https://wickedbrat.com/blog/index.xml" title="WickedBrat" /> 
+  <link rel="alternate" type="application/rss+xml+xml" href="https://wickedbrat.com/snaps/index.xml" title="WickedBrat" /> 
    
+   <style>
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
    
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  padding: 10px 10px 0 0;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+   </style>
     
 
 <script type="application/ld+json">
@@ -51,8 +100,8 @@
     { 
       "@context": "http://schema.org", 
       "@type": "WebSite", 
-      "url": "https:\/\/wickedbrat.com\/blog\/",
-      "name": "Blogs",
+      "url": "https:\/\/wickedbrat.com\/snaps\/",
+      "name": "Snaps",
       "author": {
         "@type": "Person",
         "name": ""
@@ -93,12 +142,12 @@ if (!doNotTrack) {
       </li>
     
       <li>
-        <a  class="active"
-         href="/blog">blog</a>
+        <a  href="/blog">blog</a>
       </li>
     
       <li>
-        <a  href="/snaps">snaps</a>
+        <a  class="active"
+         href="/snaps">snaps</a>
       </li>
     
   </ul>
@@ -115,84 +164,37 @@ if (!doNotTrack) {
     
     <li class="post">
       <div class="post__header">
-        <time class="post__date" datetime="2020-08-01 00:00:00 &#43;0000 UTC"
-          >Aug 1 2020</time>
+        
         <h2 class="post__title">
-          <a href="/blog/starting-with-clojure/">Getting started with Clojure</a>
+          <a href="/snaps/snaps/">Snaps</a>
         </h2>
         
-
-<ul class="tags__list">
-    
-    <li class="tag__item">
-        <a class="tag__link" href="https://wickedbrat.com/tags/clojure/">clojure</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://wickedbrat.com/tags/functional/">functional</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://wickedbrat.com/tags/programming/">programming</a>
-    </li></ul>
-
-
-      </div>
-    </li>
-    
-    <li class="post">
-      <div class="post__header">
-        <time class="post__date" datetime="2020-07-27 09:19:29 -0400 -0400"
-          >Jul 27 2020</time>
-        <h2 class="post__title">
-          <a href="/blog/welcome/">It all starts here</a>
-        </h2>
-        
-
-<ul class="tags__list">
-    
-    <li class="tag__item">
-        <a class="tag__link" href="https://wickedbrat.com/tags/welcome/">welcome</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://wickedbrat.com/tags/intro/">intro</a>
-    </li></ul>
+        <section id="photos"></section>
 
 
       </div>
     </li>
     
   </ul>
-  <ul class="tags__list">
-  
-  <li class="tag__item">
-    <a class="tag__link" href="/tags/clojure">clojure (1)</a>
-  </li>
-  
-  <li class="tag__item">
-    <a class="tag__link" href="/tags/functional">functional (1)</a>
-  </li>
-  
-  <li class="tag__item">
-    <a class="tag__link" href="/tags/intro">intro (1)</a>
-  </li>
-  
-  <li class="tag__item">
-    <a class="tag__link" href="/tags/programming">programming (1)</a>
-  </li>
-  
-  <li class="tag__item">
-    <a class="tag__link" href="/tags/welcome">welcome (1)</a>
-  </li>
-    
-</ul>
 
 </div>
 
+<script>
+  function getRandomSize(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
+}
 
+var allImages = "";
+
+for (var i = 1; i < 6; i++) {
+  var width = getRandomSize(200, 400);
+  var height =  getRandomSize(200, 400);
+  allImages += '<img src="./1'+ i + '.jpg" alt="pretty kitty">';
+}
+
+document.getElementById("photos").innerHTML = allImages;
+</script>
   </main>
-
-   
-
-  
   <script src="/js/index.min.49e4d8a384357d9b445b87371863419937ede9fa77737522ffb633073aebfa44.js" integrity="sha256-SeTYo4Q1fZtEW4c3GGNBmTft6fp3c3Ui/7YzBzrr&#43;kQ=" crossorigin="anonymous"></script>
    
 </body>
