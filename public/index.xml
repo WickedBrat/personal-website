@@ -18,7 +18,7 @@
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://wickedbrat.com/blog/intro-to-actor-model/</guid>
-      <description>If you&amp;rsquo;re here, it means that probably you&amp;rsquo;ve come across functional programming or Clojure. If not, perhaps I need to check my SEO. Anyway, let&amp;rsquo;s make the most out of it. Throughout the blog, I&amp;rsquo;ll try to simplify and present my understanding of the Functional Programming and Clojure. When you&amp;rsquo;re getting started with Clojure, the book Brave Clojure is going to be your life saver. Joy of Clojure is another book you&amp;rsquo;d find handy.</description>
+      <description>Choosing a right system architecture to be used in production is one of the most importance part of the devlopement process. It&amp;rsquo;s going to decide the reliability of the tech infrastructure in your organisation. When running services at scale, things are often prone to break. Mostly not because one service runs faulty, but that one (or more) of them doesn&amp;rsquo;t let the other to work as expected. This calls for a need of an architecture, some ground rules that solves these cases.</description>
     </item>
     
     <item>
