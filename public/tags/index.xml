@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wickedbrat.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>actor model</title>
+      <link>https://wickedbrat.com/tags/actor-model/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/tags/actor-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>akka model</title>
+      <link>https://wickedbrat.com/tags/akka-model/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/tags/akka-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distributed systems</title>
+      <link>https://wickedbrat.com/tags/distributed-systems/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>system-design</title>
+      <link>https://wickedbrat.com/tags/system-design/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/tags/system-design/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>clojure</title>

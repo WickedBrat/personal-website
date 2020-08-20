@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>akka model on WickedBrat</title>
+    <link>https://wickedbrat.com/tags/akka-model/</link>
+    <description>Recent content in akka model on WickedBrat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wickedbrat.com/tags/akka-model/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro to Actor Model</title>
+      <link>https://wickedbrat.com/blog/intro-to-actor-model/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wickedbrat.com/blog/intro-to-actor-model/</guid>
+      <description>If you&amp;rsquo;re here, it means that probably you&amp;rsquo;ve come across functional programming or Clojure. If not, perhaps I need to check my SEO. Anyway, let&amp;rsquo;s make the most out of it. Throughout the blog, I&amp;rsquo;ll try to simplify and present my understanding of the Functional Programming and Clojure. When you&amp;rsquo;re getting started with Clojure, the book Brave Clojure is going to be your life saver. Joy of Clojure is another book you&amp;rsquo;d find handy.</description>
+    </item>
+    
+  </channel>
+</rss>

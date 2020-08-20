@@ -4,12 +4,42 @@
   
   <url>
     <loc>https://wickedbrat.com/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/actor-model/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/akka-model/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://wickedbrat.com/blog/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/distributed-systems/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/blog/intro-to-actor-model/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/system-design/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,11 +59,6 @@
   
   <url>
     <loc>https://wickedbrat.com/tags/programming/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wickedbrat.com/tags/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
