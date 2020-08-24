@@ -14,4 +14,8 @@ Choosing a right system architecture to be used in production is one of the most
 
 ## Do they act?
 
-So what are exactly these things called actors? 
+So what are exactly these things called actors? Actor can be seen as distributed services instead they do not exist in remote locations. Each actor is supposed to do one thing, handle just one functionality. The actor model is conceptual model to deal with concurrent computation. Having an actor exist individually holds no meaning. Actors come together in systems.
+
+## Actors have mail boxes
+
+Although multiple actors can run simultaneously, it's crucial to understand that these actors will process messages simultaneously which means that one actor can have multiple messages to process. This
