@@ -34,7 +34,7 @@
   
   
     
-    <link type="text/css" rel="stylesheet" href="/css/post.min.cce27090c482d6b6a8e7e84c24f5c51b5722d5f25f8e42345552ce9904c41755.css" integrity="sha256-zOJwkMSC1rao5&#43;hMJPXFG1ci1fJfjkI0VVLOmQTEF1U="/>
+    <link type="text/css" rel="stylesheet" href="/css/post.min.583bb8850af0571c7c81278200bc82de72dfc503574eff980ae3e32a5b86af41.css" integrity="sha256-WDu4hQrwVxx8gSeCALyC3nLfxQNXTv&#43;YCuPjKluGr0E="/>
   
     
     <link type="text/css" rel="stylesheet" href="/css/custom.min.1a49ea6d57f503b93def9076bd3f8180354dbce3e396e6f4eab7ccbde801e44a.css" integrity="sha256-GknqbVf1A7k975B2vT&#43;BgDVNvOPjlub06rfMvegB5Eo="/>
@@ -67,7 +67,7 @@
       "datePublished": "2020-08-20 00:00:00 \u002b0000 UTC",
       "dateModified" : "2020-08-20 00:00:00 \u002b0000 UTC",
       "url" : "https:\/\/wickedbrat.com\/blog\/intro-to-actor-model\/",
-      "wordCount" : "180",
+      "wordCount" : "495",
       "keywords" : ["actor model", "akka", "distributed systems", "blog", "gojek", "Blog"]
     }
   
@@ -130,11 +130,25 @@ if (!doNotTrack) {
           </header>
           <article class="post__content">
               
-<p>Choosing a right system architecture to be used in production is one of the most importance part of the devlopement process. It&rsquo;s going to decide the reliability of the tech infrastructure in your organisation. When running services at scale, things are often prone to break. Mostly not because one service runs faulty, but that one (or more) of them doesn&rsquo;t let the other to work as expected. This calls for a need of an architecture, some ground rules that solves these cases.</p>
+<p>Choosing the right system architecture to be used in production is one of the most important parts of the development process. It&rsquo;s going to decide the reliability of the tech infrastructure in your organization. When running services at scale, things are often prone to break. Mostly not because one service runs faulty, but that one (or more) of them doesn&rsquo;t let the other to work as expected. This calls for a need of architecture, some ground rules that solves these cases.</p>
 <a class="anchor" href="#do-they-act"><h2 id="do-they-act">Do they act?</a></h2>
-<p>So what are exactly these things called actors? Actor can be seen as distributed services instead they do not exist in remote locations. Each actor is supposed to do one thing, handle just one functionality. The actor model is conceptual model to deal with concurrent computation. Having an actor exist individually holds no meaning. Actors come together in systems.</p>
-<a class="anchor" href="#actors-have-mail-boxes"><h2 id="actors-have-mail-boxes">Actors have mail boxes</a></h2>
-<p>Although multiple actors can run simultaneously, it&rsquo;s crucial to understand that these actors will process messages simultaneously which means that one actor can have multiple messages to process. This gives rise to</p>
+<p>So what are exactly these things called actors? Actors are fundamental units of computation. They can be seen as distributed services instead they need not exist in remote locations. Each actor is supposed to do one thing, handle just one functionality. The actor model is a conceptual model to deal with concurrent computation. Having an actor exist individually holds no meaning. Actors come together in systems.</p>
+<a class="anchor" href="#actors-and-mailboxes"><h2 id="actors-and-mailboxes">Actors and mailboxes</a></h2>
+<p>Although multiple actors can run simultaneously, it&rsquo;s crucial to understand that these actors will process messages simultaneously which means that one actor can have multiple messages to process. This gives rise to the need of a buffer of some kind to store these messages. Voila! Actors have something called as mailboxes, these mailboxes store extra messages received by the actor when it&rsquo;s busy with one.</p>
+<p><img src="../actors-have-mailboxes.png" alt="actors have mailboxes"></p>
+<a class="anchor" href="#how-does-the-model-work"><h2 id="how-does-the-model-work">How does the model work</a></h2>
+<p>So actors provide you a very higher-level abstraction for concurrency and distributed systems. The idea has been to provide a system that takes care of thread management, message handling and service creation, for you. So when an actor receives a message, it is supposed to perform the following three operations</p>
+<ul>
+<li>Create more actors</li>
+<li>Send messages to actors it knows</li>
+<li>What to do with the next message</li>
+</ul>
+<p>Every actor has two properties: <strong>state</strong> and <strong>behavior</strong>. So when a particular client/entity wants to communicate with an actor, they send messages to the mailbox, the mailbox is accessed by the actor and the computation is done (the computation could be either processing the data itself or directing others to do so).</p>
+<a class="anchor" href="#fault-tolerant"><h2 id="fault-tolerant">Fault Tolerant</a></h2>
+<p>Having a supervisor from the model provides one of the biggest advantages for it&rsquo;s actors. Fault tolerance. When different services/actors are running then it&rsquo;s likely a case for one of them to fail, because well, it&rsquo;s usually not possible to think &ldquo;What more could go wrong&rdquo; for each and every service. Having a distributed model allows us to handle faults when they occur. They simply follow an ideology of &ldquo;let it fail&rdquo;. They consider the case where one of the actors fail and the supervisor service handles the graceful shutdown and starts the service again.</p>
+<a class="anchor" href="#distributed-not-distributed"><h2 id="distributed-not-distributed">Distributed, not distributed</a></h2>
+<p>Well, as the analogy I&rsquo;ve been taking of the distributed systems, one or more of the actors need not exists locally. This allows us to leverage different computers in different locations.</p>
+<p>Well I&rsquo;m pretty old school these days. Ping me on anyone of the below mediums if you got any suggestions for the blog.</p>
 
 
               
@@ -232,7 +246,10 @@ if (!doNotTrack) {
         <nav id="TableOfContents">
   <ul>
     <li><a href="#do-they-act">Do they act?</a></li>
-    <li><a href="#actors-have-mail-boxes">Actors have mail boxes</a></li>
+    <li><a href="#actors-and-mailboxes">Actors and mailboxes</a></li>
+    <li><a href="#how-does-the-model-work">How does the model work</a></li>
+    <li><a href="#fault-tolerant">Fault Tolerant</a></li>
+    <li><a href="#distributed-not-distributed">Distributed, not distributed</a></li>
   </ul>
 </nav>
       </div>
