@@ -67,7 +67,7 @@
       "datePublished": "2020-08-20 00:00:00 \u002b0000 UTC",
       "dateModified" : "2020-08-20 00:00:00 \u002b0000 UTC",
       "url" : "https:\/\/wickedbrat.com\/blog\/intro-to-actor-model\/",
-      "wordCount" : "93",
+      "wordCount" : "180",
       "keywords" : ["actor model", "akka", "distributed systems", "blog", "gojek", "Blog"]
     }
   
@@ -132,7 +132,9 @@ if (!doNotTrack) {
               
 <p>Choosing a right system architecture to be used in production is one of the most importance part of the devlopement process. It&rsquo;s going to decide the reliability of the tech infrastructure in your organisation. When running services at scale, things are often prone to break. Mostly not because one service runs faulty, but that one (or more) of them doesn&rsquo;t let the other to work as expected. This calls for a need of an architecture, some ground rules that solves these cases.</p>
 <a class="anchor" href="#do-they-act"><h2 id="do-they-act">Do they act?</a></h2>
-<p>So what are exactly these things called actors?</p>
+<p>So what are exactly these things called actors? Actor can be seen as distributed services instead they do not exist in remote locations. Each actor is supposed to do one thing, handle just one functionality. The actor model is conceptual model to deal with concurrent computation. Having an actor exist individually holds no meaning. Actors come together in systems.</p>
+<a class="anchor" href="#actors-have-mail-boxes"><h2 id="actors-have-mail-boxes">Actors have mail boxes</a></h2>
+<p>Although multiple actors can run simultaneously, it&rsquo;s crucial to understand that these actors will process messages simultaneously which means that one actor can have multiple messages to process. This gives rise to</p>
 
 
               
@@ -230,6 +232,7 @@ if (!doNotTrack) {
         <nav id="TableOfContents">
   <ul>
     <li><a href="#do-they-act">Do they act?</a></li>
+    <li><a href="#actors-have-mail-boxes">Actors have mail boxes</a></li>
   </ul>
 </nav>
       </div>

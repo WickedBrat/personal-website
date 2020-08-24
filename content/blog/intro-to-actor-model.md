@@ -18,4 +18,4 @@ So what are exactly these things called actors? Actor can be seen as distributed
 
 ## Actors have mail boxes
 
-Although multiple actors can run simultaneously, it's crucial to understand that these actors will process messages simultaneously which means that one actor can have multiple messages to process. This
+Although multiple actors can run simultaneously, it's crucial to understand that these actors will process messages simultaneously which means that one actor can have multiple messages to process. This gives rise to
