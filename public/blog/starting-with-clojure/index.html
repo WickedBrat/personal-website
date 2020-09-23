@@ -34,10 +34,10 @@
   
   
     
-    <link type="text/css" rel="stylesheet" href="/css/post.min.583bb8850af0571c7c81278200bc82de72dfc503574eff980ae3e32a5b86af41.css" integrity="sha256-WDu4hQrwVxx8gSeCALyC3nLfxQNXTv&#43;YCuPjKluGr0E="/>
+    <link type="text/css" rel="stylesheet" href="/css/post.min.2cb93c91050d1853bf971cc31e00122edd6e0f405aa1de3b7f8ef67ea3b5a79a.css" integrity="sha256-LLk8kQUNGFO/lxzDHgASLt1uD0Baod47f472fqO1p5o="/>
   
     
-    <link type="text/css" rel="stylesheet" href="/css/custom.min.82876384bc5ab5df6ee2dab81c086f52ea11fc903421dd9fcf16fed6ff757aad.css" integrity="sha256-godjhLxatd9u4tq4HAhvUuoR/JA0Id2fzxb&#43;1v91eq0="/>
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.705be309466c01152674f12754604e6792c07677b0253fb77d441c1b41be13df.css" integrity="sha256-cFvjCUZsARUmdPEnVGBOZ5LAdnewJT&#43;3fUQcG0G&#43;E98="/>
   
   
    
@@ -132,7 +132,7 @@ if (!doNotTrack) {
               
 <p>If you&rsquo;re here, it means that probably you&rsquo;ve come across functional programming or Clojure. If not, perhaps I need to check my SEO. Anyway, let&rsquo;s make the most out of it. Throughout the blog, I&rsquo;ll try to simplify and present my understanding of the <strong>Functional Programming</strong> and <strong>Clojure</strong>.
 When you&rsquo;re getting started with Clojure, the book <a href="https://www.braveclojure.com/getting-started/">Brave Clojure</a> is going to be your life saver. <a href="http://www.joyofclojure.com/">Joy of Clojure</a> is another book you&rsquo;d find handy. For practicals and hands-on, I&rsquo;d recommend <a href="http://www.4clojure.com/">4clojure.com</a>. Let&rsquo;s dive in!</p>
-<a class="anchor" href="#hows-clojure-different"><h2 id="hows-clojure-different">How&rsquo;s Clojure different</a></h2>
+<h2 id="hows-clojure-different">How&rsquo;s Clojure different<a class="anchor" href="#hows-clojure-different">#</a></h2>
 <p>Clojure has a lot of resemblance with Lisp. In other words, you can say Clojure is Lisp with support for JVM. Supporting JVM turns out to be a big deal for a number of reasons:</p>
 <ul>
 <li>JVM has been around for a long time and is fast, really fast.</li>
@@ -140,12 +140,12 @@ When you&rsquo;re getting started with Clojure, the book <a href="https://www.br
 <li>JVM is used by a lot of companies for their microservices.</li>
 </ul>
 <p>Clojure has an opinionated approach to functional programming. It has support for high-order functions. This means that it can take functions as arguments and a function can also return values from other functions. One of the coolest things is that the data in Clojure are immutable by default. This means that everything, when defined has fixed value and can&rsquo;t be changed. Having immutable data values is several benefits like all the data-structures are thread-safe and one thread can&rsquo;t change the values of others. You also don&rsquo;t need to worry any other code changing your variable values.</p>
-<a class="anchor" href="#java-vs-clojure"><h2 id="java-vs-clojure">Java vs Clojure</a></h2>
+<h2 id="java-vs-clojure">Java vs Clojure<a class="anchor" href="#java-vs-clojure">#</a></h2>
 <p>To understand the difference between usage of Clojure and Java because one might argue that Java also runs on JVM. To successfully do that, we need to understand the working of Clojure behind the scenes.</p>
 <p>Clojure is a hosted language. Unlike most other programming languages Clojure programs are executed within JVM itself. Typically, Java source codes are compiled to produce JAR files which are then run by the JVM. But for Clojure, there is a Clojure library running inside JVM that runs the Clojure source code.</p>
-<a class="anchor" href="#repl"><h2 id="repl">REPL</a></h2>
+<h2 id="repl">REPL<a class="anchor" href="#repl">#</a></h2>
 <p>REPL (Read-Eval-Print-Loop) is an advanced environment that is shipped with most Lisp languages. In day-to-day development, REPL could prove to be one of the most useful tools. While developing code in Java, one issue you must have come across is the long cycle taken to test a simple change of code. With REPL, you can eliminate this process by simply running your Clojure code in REPL.</p>
-<a class="anchor" href="#some-good-practices"><h2 id="some-good-practices">Some good practices</a></h2>
+<h2 id="some-good-practices">Some good practices<a class="anchor" href="#some-good-practices">#</a></h2>
 
 
               

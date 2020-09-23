@@ -34,10 +34,10 @@
   
   
     
-    <link type="text/css" rel="stylesheet" href="/css/post.min.583bb8850af0571c7c81278200bc82de72dfc503574eff980ae3e32a5b86af41.css" integrity="sha256-WDu4hQrwVxx8gSeCALyC3nLfxQNXTv&#43;YCuPjKluGr0E="/>
+    <link type="text/css" rel="stylesheet" href="/css/post.min.2cb93c91050d1853bf971cc31e00122edd6e0f405aa1de3b7f8ef67ea3b5a79a.css" integrity="sha256-LLk8kQUNGFO/lxzDHgASLt1uD0Baod47f472fqO1p5o="/>
   
     
-    <link type="text/css" rel="stylesheet" href="/css/custom.min.82876384bc5ab5df6ee2dab81c086f52ea11fc903421dd9fcf16fed6ff757aad.css" integrity="sha256-godjhLxatd9u4tq4HAhvUuoR/JA0Id2fzxb&#43;1v91eq0="/>
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.705be309466c01152674f12754604e6792c07677b0253fb77d441c1b41be13df.css" integrity="sha256-cFvjCUZsARUmdPEnVGBOZ5LAdnewJT&#43;3fUQcG0G&#43;E98="/>
   
   
    
@@ -131,12 +131,12 @@ if (!doNotTrack) {
           <article class="post__content">
               
 <p>Choosing the right system architecture to be used in production is one of the most important parts of the development process. It&rsquo;s going to decide the reliability of the tech infrastructure in your organization. When running services at scale, things are often prone to break. Mostly not because one service runs faulty, but that one (or more) of them doesn&rsquo;t let the other to work as expected. This calls for a need of architecture, some ground rules that solves these cases.</p>
-<a class="anchor" href="#do-they-act"><h2 id="do-they-act">Do they act?</a></h2>
+<h2 id="do-they-act">Do they act?<a class="anchor" href="#do-they-act">#</a></h2>
 <p>So what are exactly these things called actors? Actors are fundamental units of computation. They can be seen as distributed services instead they need not exist in remote locations. Each actor is supposed to do one thing, handle just one functionality. The actor model is a conceptual model to deal with concurrent computation. Having an actor exist individually holds no meaning. Actors come together in systems.</p>
-<a class="anchor" href="#actors-and-mailboxes"><h2 id="actors-and-mailboxes">Actors and mailboxes</a></h2>
+<h2 id="actors-and-mailboxes">Actors and mailboxes<a class="anchor" href="#actors-and-mailboxes">#</a></h2>
 <p>Although multiple actors can run simultaneously, it&rsquo;s crucial to understand that these actors will process messages simultaneously which means that one actor can have multiple messages to process. This gives rise to the need of a buffer of some kind to store these messages. Voila! Actors have something called as mailboxes, these mailboxes store extra messages received by the actor when it&rsquo;s busy with one.</p>
 <p><img src="../actors-have-mailboxes.png" alt="actors have mailboxes"></p>
-<a class="anchor" href="#how-does-the-model-work"><h2 id="how-does-the-model-work">How does the model work</a></h2>
+<h2 id="how-does-the-model-work">How does the model work<a class="anchor" href="#how-does-the-model-work">#</a></h2>
 <p>So actors provide you a very higher-level abstraction for concurrency and distributed systems. The idea has been to provide a system that takes care of thread management, message handling and service creation, for you. So when an actor receives a message, it is supposed to perform the following three operations</p>
 <ul>
 <li>Create more actors</li>
@@ -144,9 +144,9 @@ if (!doNotTrack) {
 <li>What to do with the next message</li>
 </ul>
 <p>Every actor has two properties: <strong>state</strong> and <strong>behavior</strong>. So when a particular client/entity wants to communicate with an actor, they send messages to the mailbox, the mailbox is accessed by the actor and the computation is done (the computation could be either processing the data itself or directing others to do so).</p>
-<a class="anchor" href="#fault-tolerant"><h2 id="fault-tolerant">Fault Tolerant</a></h2>
+<h2 id="fault-tolerant">Fault Tolerant<a class="anchor" href="#fault-tolerant">#</a></h2>
 <p>Having a supervisor from the model provides one of the biggest advantages for it&rsquo;s actors. Fault tolerance. When different services/actors are running then it&rsquo;s likely a case for one of them to fail, because well, it&rsquo;s usually not possible to think &ldquo;What more could go wrong&rdquo; for each and every service. Having a distributed model allows us to handle faults when they occur. They simply follow an ideology of &ldquo;let it fail&rdquo;. They consider the case where one of the actors fail and the supervisor service handles the graceful shutdown and starts the service again.</p>
-<a class="anchor" href="#distributed-not-distributed"><h2 id="distributed-not-distributed">Distributed, not distributed</a></h2>
+<h2 id="distributed-not-distributed">Distributed, not distributed<a class="anchor" href="#distributed-not-distributed">#</a></h2>
 <p>Well, as the analogy I&rsquo;ve been taking of the distributed systems, one or more of the actors need not exists locally. This allows us to leverage different computers in different locations.</p>
 <p>Well I&rsquo;m pretty old school these days. Ping me on anyone of the below mediums if you got any suggestions for the blog.</p>
 
