@@ -1,6 +1,6 @@
 ---
 heading: "Hi, I'm Siddhant 👋"
-subheading: "Product Engineer @Gojek"
-handle: "WickedBrat"
+subheading: ""
+handle: "Product Engineer @Gojek"
 year: "2020"
 ---
