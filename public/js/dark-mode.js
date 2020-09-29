@@ -33,7 +33,6 @@ window.onload = function () {
 
     function setTheme(mode) {
         localStorage.setItem("dark-mode-storage", mode);
-        updateSocialIcons();
         if (mode === "dark") {
             theme.className = "darkTheme";
             toggle.className = "fas fa-sun";
@@ -41,5 +40,6 @@ window.onload = function () {
             theme.className = "lightTheme";
             toggle.className = "fas fa-moon";
         }
+        updateSocialIcons();
     }
 }
