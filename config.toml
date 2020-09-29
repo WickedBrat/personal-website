@@ -5,7 +5,7 @@ theme = "hugo-theme-codex"
 title = "WickedBrat"
 languageCode = "en-us"
 baseURL = "https://wickedbrat.com/"
-copyright = "© {year}"
+copyright = "© 2020"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""

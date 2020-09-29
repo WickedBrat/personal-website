@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" class="lightTheme" id="theme">
 
 <head>
   <title>Getting started with Clojure | WickedBrat</title>
@@ -22,6 +22,7 @@
   
 
   <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
   
   
@@ -34,10 +35,10 @@
   
   
     
-    <link type="text/css" rel="stylesheet" href="/css/post.min.2cb93c91050d1853bf971cc31e00122edd6e0f405aa1de3b7f8ef67ea3b5a79a.css" integrity="sha256-LLk8kQUNGFO/lxzDHgASLt1uD0Baod47f472fqO1p5o="/>
+    <link type="text/css" rel="stylesheet" href="/css/post.min.80c5b4ae5e069bb1130b6e55559a754cb7967aacb399e779709370f3769be7ab.css" integrity="sha256-gMW0rl4Gm7ETC25VVZp1TLeWeqyzmed5cJNw83ab56s="/>
   
     
-    <link type="text/css" rel="stylesheet" href="/css/custom.min.30e4f6d37adc76d690a69b60ecd28b7ccdc6359aa6cb5c3adb390eeb929ad90f.css" integrity="sha256-MOT203rcdtaQpptg7NKLfM3GNZqmy1w62zkO65Ka2Q8="/>
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.6cd4d2cb79314f147733e15b1a46db0a80f1255c4d4c38c784cc4cb221871ad2.css" integrity="sha256-bNTSy3kxTxR3M&#43;FbGkbbCoDxJVxNTDjHhMxMsiGHGtI="/>
   
   
    
@@ -67,7 +68,7 @@
       "datePublished": "2020-08-01 00:00:00 \u002b0000 UTC",
       "dateModified" : "2020-08-01 00:00:00 \u002b0000 UTC",
       "url" : "https:\/\/wickedbrat.com\/blog\/starting-with-clojure\/",
-      "wordCount" : "409",
+      "wordCount" : "410",
       "keywords" : ["clojure", "functional programming", "blog", "gojek", "Blog"]
     }
   
@@ -119,6 +120,9 @@ if (!doNotTrack) {
          target="_blank" >snaps</a>
       </li>
     
+    <li>
+      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+    </li>
   </ul>
 </nav>
 
@@ -138,7 +142,10 @@ if (!doNotTrack) {
           <article class="post__content">
               
 <p>If you&rsquo;re here, it means that probably you&rsquo;ve come across functional programming or Clojure. If not, perhaps I need to check my SEO. Anyway, let&rsquo;s make the most out of it. Throughout the blog, I&rsquo;ll try to simplify and present my understanding of the <strong>Functional Programming</strong> and <strong>Clojure</strong>.
-When you&rsquo;re getting started with Clojure, the book <a href="https://www.braveclojure.com/getting-started/">Brave Clojure</a> is going to be your life saver. <a href="http://www.joyofclojure.com/">Joy of Clojure</a> is another book you&rsquo;d find handy. For practicals and hands-on, I&rsquo;d recommend <a href="http://www.4clojure.com/">4clojure.com</a>. Let&rsquo;s dive in!</p>
+When you&rsquo;re getting started with Clojure, the book <a href="https://www.braveclojure.com/getting-started/" target="_blank">Brave Clojure</a>
+ is going to be your life saver. <a href="http://www.joyofclojure.com/" target="_blank">Joy of Clojure</a>
+ is another book you&rsquo;d find handy. For practicals and hands-on, I&rsquo;d recommend <a href="http://www.4clojure.com/" target="_blank">4clojure.com</a>
+. Let&rsquo;s dive in!</p>
 <h2 id="hows-clojure-different">How&rsquo;s Clojure different<a class="anchor" href="#hows-clojure-different">#</a></h2>
 <p>Clojure has a lot of resemblance with Lisp. In other words, you can say Clojure is Lisp with support for JVM. Supporting JVM turns out to be a big deal for a number of reasons:</p>
 <ul>
@@ -271,6 +278,7 @@ When you&rsquo;re getting started with Clojure, the book <a href="https://www.br
 
   
   <script src="/js/index.min.49e4d8a384357d9b445b87371863419937ede9fa77737522ffb633073aebfa44.js" integrity="sha256-SeTYo4Q1fZtEW4c3GGNBmTft6fp3c3Ui/7YzBzrr&#43;kQ=" crossorigin="anonymous"></script>
+  <script src="/js/dark-mode.js"></script>
   
   
   <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
