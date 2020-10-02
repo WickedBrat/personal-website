@@ -52,9 +52,9 @@ googleAnalytics = "UA-130399233-1"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
+  identifier = "home"
+  name = " home"
+  title = "Home"
   url = "/"
 
 [[menu.main]]
