@@ -58,6 +58,11 @@ googleAnalytics = "UA-130399233-1"
   url = "/"
 
 [[menu.main]]
+  identifier = "about"
+  title = "about"
+  url = "/about"
+
+[[menu.main]]
   identifier = "blog"
   name = "blog"
   title = "Blog"
