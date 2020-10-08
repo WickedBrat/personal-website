@@ -4,7 +4,32 @@
   
   <url>
     <loc>https://wickedbrat.com/</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/ar/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/blog/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/tags/tech/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickedbrat.com/blog/what-is-and-next-in-ar/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,11 +39,6 @@
   
   <url>
     <loc>https://wickedbrat.com/tags/akka-model/</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wickedbrat.com/blog/</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,11 +54,6 @@
   
   <url>
     <loc>https://wickedbrat.com/tags/system-design/</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wickedbrat.com/tags/</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -70,10 +85,6 @@
   <url>
     <loc>https://wickedbrat.com/tags/welcome/</loc>
     <lastmod>2020-07-27T09:19:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wickedbrat.com/about/</loc>
   </url>
   
   <url>
