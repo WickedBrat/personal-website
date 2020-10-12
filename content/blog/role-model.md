@@ -1,7 +1,7 @@
 ---
-title: "Role model"
+title: "The 3 life lessons"
 date: 2020-10-11T09:19:29-04:00
-slug: "role-model"
+slug: "the-3-life-lessons"
 description: "When we talk about the one person whom I'd like to become, I find it really troubling to choose any one person. I've been really grateful to have met a lot of people who have taught me a great deal. But the one person who deserves the credit is my cousin brother, Adarsh. "
 keywords: ["gohugo", "hugo", "go", "blog"]
 draft: false
