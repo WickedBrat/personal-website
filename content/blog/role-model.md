@@ -10,6 +10,8 @@ math: false
 toc: true
 ---
 
-When we talk about the one person whom I'd like to become, I find it really troubling to choose any one person. I've been really grateful to have met a lot of people who have taught me a great deal. But the one person who deserves the credit is my cousin brother, Adarsh.
+When we talk about the one person whom I'd like to become, I find it really troubling to choose any one person. I've been really grateful to have met a lot of people who have taught me a great deal. My college seniors, my parents, my friends, some legends like Steve Jobs or even the fictional character Iron Man, they have all taught me one or more life changing lessons. But the one person who deserves the credit is my cousin brother, Adarsh.
 
 He's a director of a real estate firm based in Lucknow. He has been an amazing teacher and a guide who taught me that the first thing to learn in life is learning how to fail. In his words, "The essence of winning lies in failing. If you haven't failed yet, you won't understand the importance of winning." This was reason that made me comfortable with the fact that getting lesser marks in academics wasn't a life and death situation. Although it probably may not be the best thing to take from the lesson.
+
+The other lesson I learn from Adarsh, was sportsmanship. After my life-changing near-death bike accident in my school, a month later I was ready to hop on the bike again. He taught me that it doesn't matter how hard life blows a punch on you, the only thing we, as humans, should do is stand up, dust off and try again. This attitude towards like is something I like to see any human being I meet.
