@@ -73,3 +73,9 @@ googleAnalytics = "UA-130399233-1"
   name = "snaps"
   title = "Snaps"
   url = "https://www.flickr.com/photos/190329325@N03"
+
+[[menu.main]]
+  identifier = "reads"
+  name = "reads"
+  title = "Reads"
+  url = "/reads"
