@@ -18,6 +18,7 @@ googleAnalytics = "UA-130399233-1"
   # Follow the Hugo date/time format reference here: 
   # https://gohugo.io/functions/format/#gos-layout-string
   dateFormat = "Jan 2 2006"
+  description = "A place on the internet just for knowing Siddhant better! Learn more about me here..."
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   twitter = "https://twitter.com/siddhantsme"
