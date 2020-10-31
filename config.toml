@@ -3,7 +3,7 @@ theme = "hugo-theme-codex"
 
 # Override these settings with your own
 title = "Siddhant Srivastav"
-languageCode = "en-us"
+languageCode = "en"
 baseURL = "https://wickedbrat.com/"
 copyright = "© 2020"
 
