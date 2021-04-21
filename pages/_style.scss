@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Cerebre;
+  src: url('../public/Cerebre.woff');
+}
+@font-face {
+  font-family: CerebreBold;
+  src: url('../public/CerebreBold.ttf');
+}
+
+body {
+  font-family: Cerebre;
+}
+
+.font-bold {
+  font-family: CerebreBold;
+}
+
+// Foot buttons animation
+$underlineColor: black;
+$underlineHeight: 5%;
+
+.green-color {
+	&::after {
+		background-image: linear-gradient(120deg, #00B388 0%, #00B388 100%);
+	}
+}
+.blue-color {
+	&::after {
+		background-image: linear-gradient(120deg, #1e48ee 0%, #1e48ee 100%);
+	}
+}
+.red-color {
+	&::after {
+		background-image: linear-gradient(120deg, #ff4f4f 0%, #ff4f4f 100%);
+
+	}
+}
+.yellow-color {
+	&::after {
+		background-image: linear-gradient(120deg, orange 0%, orange 100%);
+
+	}
+}
+.link {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  transition: color ease 0.3s;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 90%;
+    height: $underlineHeight;
+    left: 6px;
+    bottom: 0;
+    transition: all ease 0.3s;
+  }
+  
+  &:hover {
+    color: white;
+    
+    &::after {
+      height: 100%;
+    }
+  }
+}
+
+.green {
+		background-image: linear-gradient(120deg, #00B388 0%, #00B388 100%);
+}
+.red {
+		background-image: linear-gradient(120deg, #ff4f4f 0%, #ff4f4f 100%);
+
+}
+.yellow {
+		background-image: linear-gradient(120deg, orange 0%, orange 100%);
+}
+.blue {
+	background-image: linear-gradient(120deg, #1e48ee 0%, #1e48ee 100%);
+}
+// Heading underline
+.heading-underline {
+  background-repeat: no-repeat;
+  background-size: 110% 0.2em;
+  background-position: 0 88%;
+}
