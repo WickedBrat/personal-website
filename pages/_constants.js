@@ -1,4 +1,8 @@
-export default function getBlogs() {
+export default function constants () {
+	return 0;
+}
+
+export function getBlogs() {
 	return [
 		{
 			id: 1,

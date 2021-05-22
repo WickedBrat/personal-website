@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import getCarSVG, { getBookSVG, getLightSVG } from "./_return_car_svg";
 import { getAllElementsById } from "./_ranges";
-import getBlogs, { current_book, text_map } from "./_constants";
+import { getBlogs, current_book, text_map } from "./_constants";
 import Slider from "react-slick";
 import applyRangeAnimation from "./_ranges";
 
