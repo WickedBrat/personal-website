@@ -1,3 +1,4 @@
+import { AnimatePresence } from "framer-motion";
 import "tailwindcss/tailwind.css";
 import Footer from "./_footer";
 import Header from "./_header";
@@ -6,10 +7,11 @@ import "./_style.scss";
 function MyApp({ Component, pageProps }) {
 	return (
 		<>
-			<Header />
-			<main className="flex flex-col md:container md:mx-auto mb-24">
-				<Component {...pageProps} />
-			</main>
+			{/* <main className="flex-1 h-screen"> */}
+				{/* <AnimatePresence exitBeforeEnter> */}
+					<Component {...pageProps} />
+				{/* </AnimatePresence> */}
+			{/* </main> */}
 			<Footer />
 		</>
 	);

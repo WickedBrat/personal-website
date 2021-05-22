@@ -8,15 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.3",
+    "@lottiefiles/react-lottie-player": "^3.1.2",
     "flickr-sdk": "^3.10.0",
-    "next": "latest",
+    "framer-motion": "^4.1.16",
+    "next": "^10.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "sass": "^1.32.10"
+    "react-slick": "^0.28.1",
+    "react-view-slider": "^4.3.2",
+    "react-wordcloud": "^1.2.7",
+    "sass": "^1.32.13"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.4",
     "postcss": "^8.1.10",
+    "react-alice-carousel": "^2.5.1",
     "tailwindcss": "^2.1.1"
   }
 }
