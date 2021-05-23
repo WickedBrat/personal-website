@@ -200,7 +200,7 @@ export function getBookSVG(idx, light_on, width, func) {
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 1648 809"
 			width="1648"
-			style={{ width: "80%", margin: "0 auto 10vh auto" }}
+			style={{ width: "80%", margin: "auto", paddingBottom: "10vh" }}
 			height="50vh"
 		>
 			<g id="Layer">

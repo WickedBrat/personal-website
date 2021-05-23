@@ -4,6 +4,7 @@ import { getAllElementsById, getChangedText } from "./_ranges";
 import applyRangeAnimation from "./_ranges";
 import Reads from "./sections/_reads";
 import Writings from "./sections/_writings";
+import Photography from "./sections/_photography";
 
 export default function Home() {
 	useEffect(() => {
@@ -43,8 +44,8 @@ export default function Home() {
 			
 			<Reads/>
 			<Writings/>
+			<Photography/>
 
-			<div id="photography"></div>
 			<div id="howdy">
 				<div className="flex m-auto sticky top-0">
 					<img src="/img/howdy.svg" className="m-auto" />
