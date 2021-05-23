@@ -19,13 +19,6 @@ body, text {
 .top-5p {
   top: 5%;
 }
-.test {
-  height: 400px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .bg-yellow {
   background-color: #ffb837;
@@ -51,11 +44,11 @@ body, text {
 }
 
 #photography {
-  background-color: #30cde5;
+  background-color: #44ccff;
   height: 200vh;
 }
 #howdy {
-  background-color: #ff4f4f;
+  background-color: #bd1e1e;
   height: 100vh;
 }
 
@@ -95,20 +88,6 @@ body, text {
   fill: #fff;
 }
 
-@keyframes fill-color {
-  from {
-    fill: #fff;
-  }
-  to {
-    fill: #000;
-  }
-}
-
-#logo:hover #big {
-  // animation: fill-color 0.5s ease;
-  fill: #000;
-}
-
 
 // Foot buttons animation
 $underlineColor: black;
@@ -121,12 +100,12 @@ $underlineHeight: 5%;
 }
 .blue-color {
 	&::after {
-		background-image: linear-gradient(120deg, #30cde5 0%, #30cde5 100%);
+		background-image: linear-gradient(120deg, #44ccff 0%, #44ccff 100%);
 	}
 }
 .red-color {
 	&::after {
-		background-image: linear-gradient(120deg, #ff4f4f 0%, #ff4f4f 100%);
+		background-image: linear-gradient(120deg, #bd1e1e 0%, #bd1e1e 100%);
 
 	}
 }
@@ -140,7 +119,7 @@ $underlineHeight: 5%;
   position: relative;
   text-decoration: none;
   display: inline-block;
-  color: rgb(27, 27, 27);
+  color: white;
   transition: color ease 0.3s;
   
   &::after {
@@ -175,7 +154,7 @@ $underlineHeight: 5%;
 		background-image: linear-gradient(120deg, #00B388 0%, #00B388 100%);
 }
 .red {
-		background-image: linear-gradient(120deg, #ff4f4f 0%, #ff4f4f 100%);
+		background-image: linear-gradient(120deg, #bd1e1e 0%, #bd1e1e 100%);
 
 }
 .yellow {
@@ -185,7 +164,7 @@ $underlineHeight: 5%;
 		background-image: linear-gradient(120deg, rgb(255, 184, 52) 0%, rgb(255, 184, 52) 100%);
 }
 .blue {
-	background-image: linear-gradient(120deg, #30cde5 0%, #30cde5 100%);
+	background-image: linear-gradient(120deg, #44ccff 0%, #44ccff 100%);
 }
 // Heading underline
 .heading-underline {

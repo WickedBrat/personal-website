@@ -1,4 +1,4 @@
-export default function constants () {
+export default function constants() {
 	return 0;
 }
 
@@ -15,7 +15,7 @@ export function getBlogs() {
     harsh reality of what-is stuns us to the core with the realization
     of what-is-not.`,
 			labels: ["Life", "Motivation", "Time", "Childhood", "Struggle"],
-			social: ["medium"]
+			social: ["medium"],
 		},
 		{
 			id: 2,
@@ -29,7 +29,7 @@ export function getBlogs() {
     not knowing what to do when your father isn’t pestering you with benefits of waking
     up at 6 or 7 in the morning.…`,
 			labels: ["Life", "Motivation", "Student", "College", "Productivity"],
-			social: ["medium"]
+			social: ["medium"],
 		},
 		{
 			id: 3,
@@ -43,7 +43,7 @@ export function getBlogs() {
     schedule? Which exactly is my point here. Now imagine yourself on a day when
     you've done nothing. Slept 18 hours a day, ate, and d`,
 			labels: ["Life", "Motivation", "Student", "College", "Productivity"],
-			social: ["medium"]
+			social: ["medium"],
 		},
 		{
 			id: 4,
@@ -56,15 +56,8 @@ export function getBlogs() {
     to present all the options that might be available to you and the fallback paths too. 
     If I miss something or any doubt that you think should be addressed in this article, 
     feel free to comment, I’ll try to update it! All the best!`,
-			labels: [
-				"Internships",
-				"Summer",
-				"Open Source",
-				"College",
-				"Productivity",
-			],
-			social: ["medium"]
-
+			labels: ["Internships", "Summer", "Open Source", "College", "Productivity"],
+			social: ["medium"],
 		},
 		{
 			id: 5,
@@ -74,20 +67,18 @@ export function getBlogs() {
 			description: `This blogpost gives you an idea of how to start with GraphQL with the help of 
     Hasura and Angular. I will give you information about the boilerplate apps on Angular 
     configured to use with Hasura’s deployed GraphQL engine on Heroku.`,
-			labels: [
-				"Hasura",
-				"Angular",
-				"Boilerplate",
-				"Tech",
-				"Software",
-				"GraphQL",
-			],
-			social: ["medium", "freecodecamp"]
+			labels: ["Hasura", "Angular", "Boilerplate", "Tech", "Software", "GraphQL"],
+			social: ["medium", "freecodecamp"],
 		},
 	];
 }
 
 export const text_map = [
+	{
+		idx: -1,
+		name: "A book lets you go on a journey, without moving your feet",
+		author: "and here's my journey so far...",
+	},
 	{ idx: 0, name: "Rich Dad, Poor Dad", author: "-Robert Kiyosaki" },
 	{ idx: 1, name: "Atomic Habits", author: "-James Clear" },
 	{ idx: 2, name: "Sapiens", author: "-Yuval Noah Harari" },
@@ -96,10 +87,9 @@ export const text_map = [
 	{ idx: 5, name: "Black Swan", author: "-Nassim Nicholas Taleb" },
 	{ idx: 6, name: "Ikigai", author: "-Francesc Miralles" },
 	{ idx: 7, name: "Chaos Monkeys", author: "-Antonio Martínez" },
+	{
+		idx: 999,
+		name: "The Psychology of Money",
+		author: "-Morgan Housel",
+	}
 ];
-
-export const current_book = {
-	idx: 999,
-	name: "The Psychology of Money",
-	author: "-Morgan Housel",
-};

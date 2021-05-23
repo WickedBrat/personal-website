@@ -9,6 +9,7 @@ export default function getCarSVG(width, left, func) {
 				left: left,
 				animation: "up-down 1s ease-in infinite",
 				cursor: "pointer",
+				overflow: "hidden"
 			}}
 			width={imgWidth}
 			height="40%"
@@ -199,7 +200,7 @@ export function getBookSVG(idx, light_on, width, func) {
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 1648 809"
 			width="1648"
-			style={{ width: "80%", margin: "auto" }}
+			style={{ width: "80%", margin: "0 auto 10vh auto" }}
 			height="50vh"
 		>
 			<g id="Layer">
