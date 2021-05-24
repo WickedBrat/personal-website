@@ -45,7 +45,7 @@ body, text {
 
 #photography {
   background-color: #44ccff;
-  height: 200vh;
+  height: 500vh;
 }
 #howdy {
   background-color: #bd1e1e;
@@ -57,6 +57,7 @@ body, text {
 }
 .shp0 { fill: #000000 } 
 .shp1 { fill: #fff }
+.shp { fill: none;stroke: #000000;stroke-width: 4.4 } 
 .w-80 {
   width: 70%;
 }

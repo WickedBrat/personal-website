@@ -59,7 +59,7 @@ let carPosition = 0;
 
 export function setCarPosition(scrollPosition) {
 	if (car) {
-		carPosition = normaliseBetween(scrollPosition, readsOffset + 1, -10, 100, 0.7);
+		carPosition = normaliseBetween(scrollPosition, readsOffset + 1, -10, 90, 0.7);
 		car.style.left = String(carPosition) + "%";
 		getReadsText(text_map[changeReadsText(carPosition)]);
 	}
