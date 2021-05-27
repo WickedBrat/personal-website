@@ -15,7 +15,7 @@ export default function Writings() {
 		var k = [];
 		getBlogs().map((blog) => {
 			k.push(
-				<div>
+				<div key={blog.id}>
 					<a className="h-full flex justify-center items-center" href={blog.url} target="_blank">
 						<div className="flex flex-col justify-center w-96">
 							<p>{blog.date}</p>
@@ -25,9 +25,9 @@ export default function Writings() {
 								{"..."}
 							</p>
 							<p className="flex">
-								{blog.social.map((icon) => {
+								{blog.social.map((icon, idx) => {
 									return (
-										<img src={"/img/" + icon + ".svg"} width="30px" style={{ height: "30px", marginTop: "10px" }} />
+										<img key={idx} src={"/img/" + icon + ".svg"} width="30px" style={{ height: "30px", marginTop: "10px" }} />
 									);
 								})}
 							</p>

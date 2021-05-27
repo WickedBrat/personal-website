@@ -91,5 +91,7 @@ export const text_map = [
 		idx: 999,
 		name: "The Psychology of Money",
 		author: "-Morgan Housel",
-	}
+	},
 ];
+
+export const images = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8"];

@@ -23,7 +23,9 @@ export default function Home() {
 			</Head>
 			<div className="flex flex-col items-center justify-center text-white" id="landing">
 				<main className="flex flex-col flex-wrap items-center justify-center flex-1 px-20 text-9xl">
-					<span className="font-bold">WickedBrat.</span>
+					{/* <span className="font-bold">WickedBrat.</span> */}
+					<img src="/img/name.svg" width="900px" />
+
 					<p className="text-lg w-3/5 text-center">
 						I'm Siddhant Srivastav, currently solving Marketplace problems at Gojek as a Product Developer. I love
 						solving problems using technology. Tech is just a tool, what matters is what you build with that tech.
@@ -45,12 +47,6 @@ export default function Home() {
 			<Reads/>
 			<Writings/>
 			<Photography/>
-
-			<div id="howdy">
-				<div className="flex m-auto sticky top-0">
-					<img src="/img/howdy.svg" className="m-auto" />
-				</div>
-			</div>
 		</>
 	);
 }
