@@ -45,6 +45,7 @@ export function getAllElementsById() {
 	});
 	reads = document.getElementById("reads");
 	readsUnitHeight = reads.scrollHeight / readsHeight;
+	return 0;
 }
 
 function isWithinOffset(scrollPosition, offset1, offset2) {
@@ -66,7 +67,7 @@ function normaliseBetween(scrollPosition, offset, range_from, range_to, animatio
 // Reads Animations
 let carPosition = 0;
 
-export function setCarPosition(scrollPosition) {
+function setCarPosition(scrollPosition) {
 	if (elements.car) {
 		carPosition = normaliseBetween(scrollPosition, readsOffset + 2, -10, 90, 0.7);
 		elements.car.style.left = String(carPosition) + "%";
@@ -86,7 +87,9 @@ function setSunScale(scrollPosition) {
 	if (elements.sun) {
 		elements.sun.style.transform = "scale(" + String(normaliseBetween(scrollPosition, readsOffset + 1, 1, 22, 1)) + ")";
 	}
+	return 0;
 }
+
 function setLightsOpacity(scrollPosition) {
 	if (elements.lights1 && elements.lights2 && elements.lights3 && elements.lights4 && elements.lights5) {
 		elements.lights1.children[1].style.opacity = normaliseBetween(scrollPosition, readsOffset + 2.2, 0, 1, 10);
@@ -118,6 +121,7 @@ const bookRange = [
 	[70, 83],
 	[83, 100],
 ];
+
 function changeReadsText(number) {
 	var i = -1;
 	var index = -1;
@@ -135,6 +139,7 @@ function getReadsText(text) {
 		text.idx === -1 ? "." : text.idx === 999 ? "Currently Reading" : text.idx < 5 ? "Have read" : "Want to read";
 	elements.heading.innerHTML = text.name;
 	elements.author.innerHTML = text.author;
+	return 0;
 }
 
 // Writings Animation
@@ -186,27 +191,30 @@ function setBookFold(scrollPosition) {
 
 // Photography Animations
 function setImageAnimation(scrollPosition) {
-	isWithinOffset(scrollPosition, photographyOffset, photographyOffset + 3)
-		? (elements.blurSlider.style.filter =
-				"blur(" + String(normaliseBetween(scrollPosition, photographyOffset + 1, 10, 0, 10)) + "px)")
-		: isWithinOffset(scrollPosition, photographyOffset + 3, photographyOffset + 4)
-		? (elements.blurSlider.style.filter =
-				"blur(" + String(normaliseBetween(scrollPosition, photographyOffset + 2, 0, 2, 10)) + "px)")
-		: (elements.blurSlider.style.filter = "blur(0px)");
+	if (elements.blurSlider && elements.focus_center && elements.blurSlider && elements.slider) {
+		isWithinOffset(scrollPosition, photographyOffset, photographyOffset + 3)
+			? (elements.blurSlider.style.filter =
+					"blur(" + String(normaliseBetween(scrollPosition, photographyOffset + 1, 10, 0, 10)) + "px)")
+			: isWithinOffset(scrollPosition, photographyOffset + 3, photographyOffset + 4)
+			? (elements.blurSlider.style.filter =
+					"blur(" + String(normaliseBetween(scrollPosition, photographyOffset + 2, 0, 2, 10)) + "px)")
+			: (elements.blurSlider.style.filter = "blur(0px)");
 
-	if (isWithinOffset(scrollPosition, photographyOffset + 1, photographyOffset + 3.8)) {
-		elements.focus_center.style.fill = "red";
-	} else {
-		elements.focus_center.style.fill = "green";
+		if (isWithinOffset(scrollPosition, photographyOffset + 1, photographyOffset + 3.8)) {
+			elements.focus_center.style.fill = "red";
+		} else {
+			elements.focus_center.style.fill = "green";
+		}
+
+		elements.focus.style.filter = elements.blurSlider.style.filter;
+		elements.focus.style.opacity = normaliseBetween(scrollPosition, photographyOffset + 5, 1, 0, 1000);
+
+		elements.blurSlider.style.transform =
+			"scale(" + String(normaliseBetween(scrollPosition, photographyOffset + 5, 0.5, 0.5, 4)) + "px)";
+		elements.slider.style.clipPath =
+			"circle(" + normaliseBetween(scrollPosition, photographyOffset + 5, 15, 100, 4) + "% at center)";
 	}
-
-	elements.focus.style.filter = elements.blurSlider.style.filter;
-	elements.focus.style.opacity = normaliseBetween(scrollPosition, photographyOffset + 5, 1, 0, 1000);
-
-	elements.blurSlider.style.transform =
-		"scale(" + String(normaliseBetween(scrollPosition, photographyOffset + 5, 0.5, 0.5, 4)) + "px)";
-	elements.slider.style.clipPath =
-		"circle(" + normaliseBetween(scrollPosition, photographyOffset + 5, 15, 100, 4) + "% at center)";
+	return 0;
 }
 
 export default function applyRangeAnimation(scrollPosition) {

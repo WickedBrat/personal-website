@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { useEffect, useState } from "react";
-import { getAllElementsById, getChangedText } from "./_ranges";
+import { useEffect } from "react";
+import { getAllElementsById } from "./_ranges";
+import Reads from "./_reads";
+import Writings from "./_writings";
+import Photography from "./_photography";
 import applyRangeAnimation from "./_ranges";
-import Reads from "./sections/_reads";
-import Writings from "./sections/_writings";
-import Photography from "./sections/_photography";
 
 export default function Home() {
 	useEffect(() => {
@@ -43,10 +43,10 @@ export default function Home() {
 					<path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
 				</svg>
 			</div>
-			
-			<Reads/>
-			<Writings/>
-			<Photography/>
+
+			<Reads />
+			<Writings />
+			<Photography />
 		</>
 	);
 }

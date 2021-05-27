@@ -1,6 +1,6 @@
 import Slider from "react-slick";
-import { getBlogs } from "../_constants";
-import { getBookSVG } from "../_return_car_svg";
+import { getBlogs } from "./_constants";
+import { getBookSVG } from "./_return_car_svg";
 
 export default function Writings() {
 	var settings = {

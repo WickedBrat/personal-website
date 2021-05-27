@@ -1,5 +1,5 @@
-import { text_map } from "../_constants";
-import getCarSVG, { getLightSVG } from "../_return_car_svg";
+import { text_map } from "./_constants";
+import getCarSVG, { getLightSVG } from "./_return_car_svg";
 
 export default function Reads() {
 	return (

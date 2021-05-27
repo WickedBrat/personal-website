@@ -1,5 +1,5 @@
-import { images } from "../_constants";
-import { getFocusSVG } from "../_return_car_svg";
+import { images } from "./_constants";
+import { getFocusSVG } from "./_return_car_svg";
 
 export default function Photography() {
 	return (
