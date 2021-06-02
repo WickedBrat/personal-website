@@ -26,7 +26,7 @@ export default function Reads() {
 						</div>
 						<div style={{ marginBottom: "2px" }} className="overflow-hidden relative">
 							{/* Car */}
-							{getCarSVG("100px", "0%")}
+							{getCarSVG("100px")}
 							{/* Lights */}
 							<div>
 								<div id="lightsAnimation" className="flex justify-around mb-1">

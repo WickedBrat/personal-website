@@ -5,9 +5,13 @@ import Reads from "./_reads";
 import Writings from "./_writings";
 import Photography from "./_photography";
 import applyRangeAnimation from "./_ranges";
+import ScrollBound from "scroll-bound-animation";
+var data = require("./animation.json");
 
 export default function Home() {
 	useEffect(() => {
+		new ScrollBound(data);
+
 		getAllElementsById();
 		window.addEventListener("scroll", (val) => {
 			const scrollPosition = val.target.scrollingElement.scrollTop;
@@ -28,7 +32,7 @@ export default function Home() {
 
 					<p className="text-lg w-3/5 text-center">
 						I'm Siddhant Srivastav, currently solving Marketplace problems at Gojek as a Product Developer. I love
-						solving problems using technology. Tech is just a tool, what matters is what you build with that tech.
+						solving problems using technology. <span className="heading-underline yellow">Tech is just a tool, what you build with it matters the most.</span>
 					</p>
 				</main>
 				<svg

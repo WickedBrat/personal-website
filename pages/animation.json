@@ -1,0 +1,225 @@
+{
+	"#readsText": {
+		"opacity": [
+			{
+				"animationHeightOffset": 1.5,
+				"startAnimationValue": "0",
+				"endAnimationValue": "1"
+			}
+		]
+	},
+	"#car": {
+		"left": [
+			{
+				"animationHeightOffset": 2,
+				"startAnimationValue": "-10%",
+				"endAnimationValue": "90%",
+				"animationSpeed": 0.4
+			}
+		]
+	},
+	"#lights0 > .shp1": {
+		"opacity": [
+			{
+				"animationHeightOffset": 2.2,
+				"startAnimationValue": "0",
+				"endAnimationValue": "1",
+				"animationSpeed": 10
+			}
+		]
+	},
+	"#lights1 > .shp1": {
+		"opacity": [
+			{
+				"animationHeightOffset": 2.6,
+				"startAnimationValue": "0",
+				"endAnimationValue": "1",
+				"animationSpeed": 10
+			}
+		]
+	},
+	"#lights2 > .shp1": {
+		"opacity": [
+			{
+				"animationHeightOffset": 3.2,
+				"startAnimationValue": "0",
+				"endAnimationValue": "1",
+				"animationSpeed": 10
+			}
+		]
+	},
+	"#lights3 > .shp1": {
+		"opacity": [
+			{
+				"animationHeightOffset": 3.8,
+				"startAnimationValue": "0",
+				"endAnimationValue": "1",
+				"animationSpeed": 10
+			}
+		]
+	},
+	"#lights4 > .shp1": {
+		"opacity": [
+			{
+				"animationHeightOffset": 4.2,
+				"startAnimationValue": "0",
+				"endAnimationValue": "1",
+				"animationSpeed": 10
+			}
+		]
+	},
+	"#lights5 > .shp1": {
+		"opacity": [
+			{
+				"animationHeightOffset": 4.8,
+				"startAnimationValue": "0",
+				"endAnimationValue": "1",
+				"animationSpeed": 10
+			}
+		]
+	},
+	"#blogs": {
+		"opacity": [
+			{
+				"animationHeightOffset": 11,
+				"startAnimationValue": "0",
+				"endAnimationValue": "1",
+				"animationSpeed": 10
+			}
+		]
+	},
+	"#focus": {
+		"opacity": [
+			{
+				"animationHeightOffset": 20,
+				"startAnimationValue": "2",
+				"endAnimationValue": "0",
+				"animationSpeed": 1000
+			}
+		]
+	},
+	"#sun": {
+		"transform scale": [
+			{
+				"animationHeightOffset": 2,
+				"startAnimationValue": "1",
+				"endAnimationValue": "30",
+				"animationSpeed": 1
+			}
+		]
+	},
+	"#right_side": {
+		"transform rotate": [
+			{
+				"animationHeightOffset": 11.5,
+				"startAnimationValue": "0deg",
+				"endAnimationValue": "90deg",
+				"animationSpeed": 5
+			}
+		]
+	},
+	"#right_page": {
+		"transform rotate": [
+			{
+				"animationHeightOffset": 11.5,
+				"startAnimationValue": "0deg",
+				"endAnimationValue": "90deg",
+				"animationSpeed": 5
+			}
+		],
+		"transform scaleX": [
+			{
+				"animationHeightOffset": 11.5,
+				"startAnimationValue": "1",
+				"endAnimationValue": "1.2",
+				"animationSpeed": 5
+			}
+		],
+		"transform scaleY": [
+			{
+				"animationHeightOffset": 11.5,
+				"startAnimationValue": "0.89",
+				"endAnimationValue": "0.9",
+				"animationSpeed": 5
+			}
+		]
+	},
+	"#left_side": {
+		"transform rotate": [
+			{
+				"animationHeightOffset": 11.5,
+				"startAnimationValue": "0deg",
+				"endAnimationValue": "-90deg",
+				"animationSpeed": 5
+			}
+		]
+	},
+	"#left_page": {
+		"transform rotate": [
+			{
+				"animationHeightOffset": 11.5,
+				"startAnimationValue": "0deg",
+				"endAnimationValue": "-90deg",
+				"animationSpeed": 5
+			}
+		],
+		"transform scaleX": [
+			{
+				"animationHeightOffset": 11.5,
+				"startAnimationValue": "1",
+				"endAnimationValue": "1.2",
+				"animationSpeed": 5
+			}
+		],
+		"transform scaleY": [
+			{
+				"animationHeightOffset": 11.5,
+				"startAnimationValue": "0.89",
+				"endAnimationValue": "0.9",
+				"animationSpeed": 5
+			}
+		]
+	},
+	"#blurSlider": {
+		"filter blur": [
+			{
+				"animationHeightOffset": 15.5,
+				"startAnimationValue": "10px",
+				"endAnimationValue": "0px",
+				"animationSpeed": 10
+			},
+			{
+				"animationHeightOffset": 17,
+				"startAnimationValue": "0px",
+				"endAnimationValue": "2px",
+				"animationSpeed": 100
+			},
+			{
+				"animationHeightOffset": 18.5,
+				"startAnimationValue": "2px",
+				"endAnimationValue": "0px",
+				"animationSpeed": 100
+			}
+		]
+	},
+	"#focus_center": {
+		"fill": [
+			{
+				"animationHeightOffset": 18,
+				"startAnimationValue": "green",
+				"endAnimationValue": "green",
+				"animationSpeed": 100
+			}
+		]
+	},
+	"#slider": {
+		"clip-path circle": [
+			{
+				"animationHeightOffset": 20,
+				"startAnimationValue": "15%",
+				"endAnimationValue": "100%",
+				"animationSpeed": 4
+			}
+		]
+	}
+}
