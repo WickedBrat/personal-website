@@ -63,10 +63,10 @@ function normaliseBetween(scrollPosition, offset, range_from, range_to, animatio
 // Reads Animations
 let carPosition = 0;
 
-function setCarPosition(scrollPosition) {
+function setCarPosition() {
 	if (elements.car) {
-		carPosition = normaliseBetween(scrollPosition, readsOffset + 2, -10, 90, 0.7);
-		getReadsText(text_map[changeReadsText(carPosition)]);
+		var left = elements.car.style.left;
+		getReadsText(text_map[changeReadsText(left.substring(0, left.length - 1))]);
 	}
 	return 0;
 }
@@ -103,16 +103,20 @@ function getReadsText(text) {
 	return 0;
 }
 
-// Photography Animations
 function setImageAnimation(scrollPosition) {
-	if (elements.blurSlider && elements.focus_center && elements.blurSlider && elements.slider) {
-		elements.focus.style.filter = elements.blurSlider.style.filter;
+	if (scrollPosition >= window.innerHeight * 18.5) {
+		document.getElementById("focus_center").style.fill = "green";
+	} else {
+		document.getElementById("focus_center").style.fill = "red";
 	}
-	return 0;
+	if (scrollPosition >= window.innerHeight * 19.5) {
+		document.getElementById("focus").style.display = "none";
+	} else {
+		document.getElementById("focus").style.display = "block";
+	}
 }
 
 export default function applyRangeAnimation(scrollPosition) {
-	// Limit applying animation based on scroll position
 	setCarPosition(scrollPosition);
 	setImageAnimation(scrollPosition);
 	return 0;

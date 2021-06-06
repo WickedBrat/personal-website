@@ -88,16 +88,6 @@
 			}
 		]
 	},
-	"#focus": {
-		"opacity": [
-			{
-				"animationHeightOffset": 20,
-				"startAnimationValue": "2",
-				"endAnimationValue": "0",
-				"animationSpeed": 1000
-			}
-		]
-	},
 	"#sun": {
 		"transform scale": [
 			{
@@ -180,28 +170,6 @@
 			}
 		]
 	},
-	"#blurSlider": {
-		"filter blur": [
-			{
-				"animationHeightOffset": 15.5,
-				"startAnimationValue": "10px",
-				"endAnimationValue": "0px",
-				"animationSpeed": 10
-			},
-			{
-				"animationHeightOffset": 17,
-				"startAnimationValue": "0px",
-				"endAnimationValue": "2px",
-				"animationSpeed": 100
-			},
-			{
-				"animationHeightOffset": 18.5,
-				"startAnimationValue": "2px",
-				"endAnimationValue": "0px",
-				"animationSpeed": 100
-			}
-		]
-	},
 	"#focus_center": {
 		"fill": [
 			{
@@ -212,13 +180,25 @@
 			}
 		]
 	},
-	"#slider": {
-		"clip-path circle": [
+	"#focus, #focus + div": {
+		"filter blur": [
 			{
-				"animationHeightOffset": 20,
-				"startAnimationValue": "15%",
-				"endAnimationValue": "100%",
-				"animationSpeed": 4
+				"animationHeightOffset": 17,
+				"startAnimationValue": "10px",
+				"endAnimationValue": "0px",
+				"animationSpeed": 10
+			},
+			{
+				"animationHeightOffset": 18.5,
+				"startAnimationValue": "0px",
+				"endAnimationValue": "2px",
+				"animationSpeed": 10
+			},
+			{
+				"animationHeightOffset": 19,
+				"startAnimationValue": "2px",
+				"endAnimationValue": "0px",
+				"animationSpeed": 100
 			}
 		]
 	}

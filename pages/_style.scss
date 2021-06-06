@@ -13,7 +13,7 @@
 
 $white-color: #EFF1F3;
 $yellow-color: #ffb837;
-$blue-color: #52528C;
+$blue-color: antiquewhite;
 $green-color: #0B7A75;
 $red-color: #bd1e1e;
 $black-color: rgb(27, 27, 27);
@@ -226,10 +226,6 @@ $underlineHeight: 5%;
   }
 }
 
-// #\35 > #light1, #\35 > #light2 {
-//   animation: lights-on 1s ease-in infinite;
-// }
-
 .w-110 {
   width: 110%;
 }
@@ -270,8 +266,9 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 }
 
 #slider {
-  clip-path: circle(15%);
+  // clip-path: circle(15%);
 }
-#focus {
-  opacity: 1;
+.photographyPics {
+  width: calc(33.333% - 2rem);
+  margin: 0 auto;
 }
