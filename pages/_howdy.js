@@ -1,14 +1,16 @@
-export function Howdy() {
-	function getText(text) {
+export default function Howdy() {
+	function getText(text, show = false) {
 		return (
 			<div className="flex justify-center items-center sticky top-1/4">
 				<p className="text-6xl font-bold text-white bg-red w-full" style={{ height: "150vh" }}>
 					{text}
+					{show ? getSocial() : ""}
 				</p>
 			</div>
 		);
 	}
 	const texts = [
+		"I sound awesome eh? Let's talk...",
 		"Stop scrolling now...",
 		"Well that was it...",
 		"So you don't believe me?",
@@ -65,21 +67,28 @@ export function Howdy() {
 		);
 	}
 	return (
-		<div id="howdy">
-			<div className="w-80 m-auto">
-				<div className="flex flex-col justify-center items-center" style={{ height: "120vh" }}>
-					<p className="text-6xl font-bold text-white">I sound awesome! eh? Let's talk...</p>
-					{getSocial()}
-				</div>
-				<div>
-					{texts.map((message) => {
-						return getText(message);
-					})}
-				</div>
-				<div className="h-screen flex flex-col justify-center items-start">
-					<p className="text-6xl font-bold text-white">Tell me on Insta how you liked the experience...</p>
-					<p className="text-4xl mt-7 font-bold text-white">And the animations too!</p>
-					{getSocial()}
+		<div>
+			<div
+				className="flex flex-col justify-start pt-20 items-center h-screen"
+				style={{ backgroundColor: "antiquewhite" }}
+			>
+				<p className="font-bold text-4xl">Want to see more of my pics?</p>
+				<p className="font-bold text-3xl">
+					Visit <a href="https://www.flickr.com/photos/190329325@N03">Flickr</a>
+				</p>
+			</div>
+			<div id="howdy">
+				<div className="w-80 m-auto">
+					<div>
+						{texts.map((message, i) => {
+							return getText(message, i === 0);
+						})}
+					</div>
+					<div className="h-screen flex flex-col justify-center items-start">
+						<p className="text-6xl font-bold text-white">Tell me on Insta how you liked the experience...</p>
+						<p className="text-4xl mt-7 font-bold text-white">And the animations too!</p>
+						{getSocial()}
+					</div>
 				</div>
 			</div>
 		</div>

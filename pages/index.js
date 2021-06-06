@@ -6,7 +6,7 @@ import Writings from "./_writings";
 import Photography from "./_photography";
 import applyRangeAnimation from "./_ranges";
 import ScrollBound from "scroll-bound-animation";
-import { Howdy } from "./_howdy";
+import Howdy from "./_howdy";
 var data = require("./animation.json");
 
 export default function Home() {
