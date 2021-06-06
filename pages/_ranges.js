@@ -104,15 +104,17 @@ function getReadsText(text) {
 }
 
 function setImageAnimation(scrollPosition) {
-	if (scrollPosition >= window.innerHeight * 18.5) {
-		document.getElementById("focus_center").style.fill = "green";
-	} else {
-		document.getElementById("focus_center").style.fill = "red";
-	}
-	if (scrollPosition >= window.innerHeight * 19.5) {
-		document.getElementById("focus").style.display = "none";
-	} else {
-		document.getElementById("focus").style.display = "block";
+	if (elements.focus && elements.focus_center) {
+		if (scrollPosition >= window.innerHeight * 18.5) {
+			elements.focus_center.style.fill = "green";
+		} else {
+			elements.focus_center.style.fill = "red";
+		}
+		if (scrollPosition >= window.innerHeight * 19.5) {
+			elements.focus.style.display = "none";
+		} else {
+			elements.focus.style.display = "block";
+		}
 	}
 }
 
