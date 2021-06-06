@@ -6,6 +6,7 @@ import Writings from "./_writings";
 import Photography from "./_photography";
 import applyRangeAnimation from "./_ranges";
 import ScrollBound from "scroll-bound-animation";
+import { Howdy } from "./_howdy";
 var data = require("./animation.json");
 
 export default function Home() {
@@ -32,7 +33,10 @@ export default function Home() {
 
 					<p className="text-lg w-3/5 text-center">
 						I'm Siddhant Srivastav, currently solving Marketplace problems at Gojek as a Product Developer. I love
-						solving problems using technology. <span className="heading-underline yellow">Tech is just a tool, what you build with it matters the most.</span>
+						solving problems using technology.{" "}
+						<span className="heading-underline yellow">
+							Tech is just a tool, what you build with it matters the most.
+						</span>
 					</p>
 				</main>
 				<svg
@@ -51,6 +55,7 @@ export default function Home() {
 			<Reads />
 			<Writings />
 			<Photography />
+			<Howdy />
 		</>
 	);
 }

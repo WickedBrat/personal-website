@@ -72,7 +72,7 @@ export default function Photography() {
 						</span>
 						<div className="flex flex-wrap overflow-hidden" style={{ filter: "blur(20px)" }}>
 							<div className="photographyPics overflow-hidden">
-								{[...Array(10)].map((e, i) => {
+								{[...Array(7)].map((e, i) => {
 									return (
 										<div className="w-full overflow-hidden my-8" key={i}>
 											<img src={"/photos/img" + String(i + 1) + ".jpg"} className="" />
@@ -82,7 +82,7 @@ export default function Photography() {
 							</div>
 
 							<div className="photographyPics overflow-hidden">
-								{[...Array(8)].map((e, i) => {
+								{[...Array(6)].map((e, i) => {
 									return (
 										<div className="w-full overflow-hidden my-8" key={i}>
 											<img src={"/photos/img" + String(i + 11) + ".jpg"} className="" />
@@ -92,7 +92,7 @@ export default function Photography() {
 							</div>
 
 							<div className="photographyPics overflow-hidden">
-								{[...Array(7)].map((e, i) => {
+								{[...Array(5)].map((e, i) => {
 									return (
 										<div className="w-full overflow-hidden my-8" key={i}>
 											<img src={"/photos/img" + String(i + 19) + ".jpg"} className="" />

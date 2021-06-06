@@ -18,6 +18,9 @@ $green-color: #0B7A75;
 $red-color: #bd1e1e;
 $black-color: rgb(27, 27, 27);
 
+.bg-red {
+  background-color: $red-color;
+}
 
 html {
 	scroll-behavior: smooth;
@@ -60,7 +63,6 @@ body, text {
 }
 #howdy {
   background-color: $red-color;
-  height: 100vh;
 }
 
 .cursive {

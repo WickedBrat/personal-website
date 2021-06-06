@@ -15,7 +15,7 @@ export default function Writings() {
 		var k = [];
 		getBlogs().map((blog) => {
 			k.push(
-				<div key={blog.id}>
+				<div key={blog.id} className="text-white">
 					<a className="h-full flex justify-center items-center" href={blog.url} target="_blank">
 						<div className="flex flex-col justify-center w-96">
 							<p>{blog.date}</p>
@@ -27,7 +27,12 @@ export default function Writings() {
 							<p className="flex">
 								{blog.social.map((icon, idx) => {
 									return (
-										<img key={idx} src={"/img/" + icon + ".svg"} width="30px" style={{ height: "30px", marginTop: "10px" }} />
+										<img
+											key={idx}
+											src={"/img/" + icon + ".svg"}
+											width="30px"
+											style={{ height: "30px", marginTop: "10px" }}
+										/>
 									);
 								})}
 							</p>
@@ -42,7 +47,7 @@ export default function Writings() {
 	return (
 		<div id="writings">
 			<div className="h-screen flex justify-center items-center">
-				<p className="text-6xl font-bold">Writings</p>
+				<p className="text-6xl font-bold text-white">Writings</p>
 			</div>
 			<div className="sticky top-5p">
 				<div className="flex flex-col justify-center items-center" id="blogs">
