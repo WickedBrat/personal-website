@@ -81,7 +81,7 @@
 	"#blogs": {
 		"opacity": [
 			{
-				"animationHeightOffset": 11,
+				"animationHeightOffset": 10.5,
 				"startAnimationValue": "0",
 				"endAnimationValue": "1",
 				"animationSpeed": 10
@@ -101,7 +101,7 @@
 	"#right_side": {
 		"transform rotate": [
 			{
-				"animationHeightOffset": 11.5,
+				"animationHeightOffset": 10,
 				"startAnimationValue": "0deg",
 				"endAnimationValue": "90deg",
 				"animationSpeed": 5
@@ -111,7 +111,7 @@
 	"#right_page": {
 		"transform rotate": [
 			{
-				"animationHeightOffset": 11.5,
+				"animationHeightOffset": 10,
 				"startAnimationValue": "0deg",
 				"endAnimationValue": "90deg",
 				"animationSpeed": 5
@@ -119,7 +119,7 @@
 		],
 		"transform scaleX": [
 			{
-				"animationHeightOffset": 11.5,
+				"animationHeightOffset": 10,
 				"startAnimationValue": "1",
 				"endAnimationValue": "1.2",
 				"animationSpeed": 5
@@ -127,7 +127,7 @@
 		],
 		"transform scaleY": [
 			{
-				"animationHeightOffset": 11.5,
+				"animationHeightOffset": 10,
 				"startAnimationValue": "0.89",
 				"endAnimationValue": "0.9",
 				"animationSpeed": 5
@@ -137,7 +137,7 @@
 	"#left_side": {
 		"transform rotate": [
 			{
-				"animationHeightOffset": 11.5,
+				"animationHeightOffset": 10,
 				"startAnimationValue": "0deg",
 				"endAnimationValue": "-90deg",
 				"animationSpeed": 5
@@ -147,7 +147,7 @@
 	"#left_page": {
 		"transform rotate": [
 			{
-				"animationHeightOffset": 11.5,
+				"animationHeightOffset": 10,
 				"startAnimationValue": "0deg",
 				"endAnimationValue": "-90deg",
 				"animationSpeed": 5
@@ -155,7 +155,7 @@
 		],
 		"transform scaleX": [
 			{
-				"animationHeightOffset": 11.5,
+				"animationHeightOffset": 10,
 				"startAnimationValue": "1",
 				"endAnimationValue": "1.2",
 				"animationSpeed": 5
@@ -163,7 +163,7 @@
 		],
 		"transform scaleY": [
 			{
-				"animationHeightOffset": 11.5,
+				"animationHeightOffset": 10,
 				"startAnimationValue": "0.89",
 				"endAnimationValue": "0.9",
 				"animationSpeed": 5
@@ -173,7 +173,7 @@
 	"#focus_center": {
 		"fill": [
 			{
-				"animationHeightOffset": 18,
+				"animationHeightOffset": 16.5,
 				"startAnimationValue": "green",
 				"endAnimationValue": "green",
 				"animationSpeed": 100
@@ -183,19 +183,19 @@
 	"#focus, #focus + div": {
 		"filter blur": [
 			{
-				"animationHeightOffset": 17,
-				"startAnimationValue": "10px",
+				"animationHeightOffset": 15,
+				"startAnimationValue": "3px",
 				"endAnimationValue": "0px",
-				"animationSpeed": 10
+				"animationSpeed": 15
 			},
 			{
-				"animationHeightOffset": 18.5,
+				"animationHeightOffset": 17,
 				"startAnimationValue": "0px",
 				"endAnimationValue": "2px",
 				"animationSpeed": 10
 			},
 			{
-				"animationHeightOffset": 19,
+				"animationHeightOffset": 17.5,
 				"startAnimationValue": "2px",
 				"endAnimationValue": "0px",
 				"animationSpeed": 100
